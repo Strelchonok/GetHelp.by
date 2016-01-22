@@ -1,0 +1,342 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>@ViewBag.Title</title>
+        <meta name="description" content="@ViewBag.Description">
+        <meta name="keywords" content="@ViewBag.KeyWords">
+
+        <link href="~/Content/reset.css" rel="stylesheet" />
+        <link href="~/Content/global.css" rel="stylesheet" />
+    
+    
+        <script src="~/Scripts/jquery.js"type="text/javascript"></script>
+        <script src="~/Scripts/jquery.migrate.js"  type="text/javascript"></script>
+        <script src="~/Scripts/jquery.countdown.js" type="text/javascript"></script>
+        <script src="~/Scripts/jquery.countdown.ru.js" type="text/javascript"></script>
+        <script src="~/Scripts/jquery.maskedinput.js" type="text/javascript"></script>
+        <script src="~/Scripts/global.js" type="text/javascript"></script>
+
+
+    
+        @*@Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")*@
+</head>
+<body>
+    <div class="header">
+        <div class="central">
+            <div class="top">
+                <div class="logotype">
+                    <a href="~/"><span class="icon"><img src="~/Content/images/pics/GetHelp.gif" width="180" height="29" border="0" /></span></a>
+                </div>
+                <div id="navigation" class="navigation">
+                    <ul>
+                        <li class="link"><a href="#services">Услуги и цены</a></li>
+                        <li class="link"><a href="#scheme">Схема работы</a></li>
+                        <li class="link"><a href="#advantages">Преимущества</a></li>
+                    </ul>
+                </div>
+                <div id="zvoni">
+                    <p>Звони прямо сейчас!</p>
+                </div>
+                <div id="tel24">
+                    <p>(29) 311-59-15</p>
+                </div>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="central">
+                <ul>
+                    <li><a href="">Удаление вирусов</a></li>
+                    <li><a href="">Установка Windows</a></li>
+                    <li><a href="">Настройка Wi-Fi</a></li>
+                    <li><a href="">Ремонт компьютеров</a></li>
+                    <li><a href="">Ремонт ноутбуков</a></li>
+                    <li><a href="">Восстановление</a></li>
+                    <li><a href="">Установка программ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- /header -->
+    <div id="intro" class="intro">
+        <div class="central">
+            <div class="center">
+                <div class="hero">
+                    <img src="~/Content/images/pics/home.png" alt="" />
+                </div>
+            </div>
+            
+            @RenderBody()
+
+            <div class="right">
+                <div class="contact">
+                    <div class="schedule">
+                        круглосуточно <br />
+                        без выходных
+                    </div>
+                    <div class="phone">(29) 311-59-15</div>
+                </div>
+                <div class="advantages">
+                    <ul>
+                        <li>
+                            <div class="image"><img src="~/Content/images/advantages-icon-1-2-small.png" width="41" height="42" alt="" /></div>
+                            <div class="description">
+                                оперативность <br />
+                                работы
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="image"><img src="~/Content/images/advantages-icon-2-2-small.png" width="41" height="42" alt="" /></div>
+                            <div class="description">
+                                гарантийные <br />
+                                обязательства
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image"><img src="~/Content/images/advantages-icon-3-2-small.png" width="41" height="42" alt="" /></div>
+                            <div class="description">
+                                более 5 лет <br />
+                                опыта
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image"><img src="~/Content/images/advantages-icon-4-2-small.png" width="41" height="42" alt="" /></div>
+                            <div class="description">
+                                грамотные <br />
+                                специалисты
+                            </div>
+                        </li>
+                        <li>
+                            <div class="image"><img src="~/Content/images/advantages-icon-2-small.png" width="41" height="42" alt="" /></div>
+                            <div class="description">
+                                прозрачное <br />
+                                ценообразование
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- /intro -->
+    <a name="price"></a>
+    <div id="services" class="services">
+        <div class="central layout">
+            <a href=""><h2>Качественные услуги по выгодным ценам:</h2></a>
+            <ul class="list">
+                <li>
+                    <div class="image"><img src="~/Content/images/service-icon-1.png" width="98" height="98" alt="" /></div>
+                    <div class="group">
+                        <div class="name">Удаление вирусов</div>
+                        <div class="price">280 500 р.<span>330 000 р.</span></div>
+                        <div class="description">Удалим вирусы, шпионов, создадим резервную копию важной информации.</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="image"><img src="~/Content/images/service-icon-6.png" width="98" height="98" alt="" /></div>
+                    <div class="group">
+                        <div class="name">Установка Windows</div>
+                        <div class="price">297 500 р. <span>350 000 р.</span></div>
+                        <div class="description">Установим опрерационную систему Windows XP, 7, 8, 10, с сохранением данных.</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="image"><img src="~/Content/images/service-icon-2.png" width="98" height="98" alt="" /></div>
+                    <div class="group">
+                        <div class="name">Настройка Wi-Fi</div>
+                        <div class="price">170 000 р. <span>200 000 р.</span></div>
+                        <div class="description">Быстро и надежно настроим компьютер, ноутбук, iPad для выхода в Интернет через Wi-Fi.</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="image"><img src="~/Content/images/service-icon-4.png" width="98" height="98" alt="" /></div>
+                    <div class="group">
+                        <div class="name">Настройка интернета</div>
+                        <div class="price">170 000 р. <span>200 000 р.</span></div>
+                        <div class="description">Настроим соединение с интернетом на вашем компьютере.</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="image"><img src="~/Content/images/service-icon-5.png" width="98" height="98" alt="" /></div>
+                    <div class="group">
+                        <div class="name">Установка антивируса</div>
+                        <div class="price">148 000 р. <span>175 000 р.</span></div>
+                        <div class="description">Установим и настроим антивирус по вашему выбору.</div>
+                    </div>
+                </li>
+                <li>
+                    <div class="image"><img src="~/Content/images/service-icon-3.png" width="98" height="98" alt="" /></div>
+                    <div class="group">
+                        <div class="name">Ремонт и модернизация</div>
+                        <div class="price">от 365 000 р. <span>от 430 000 р.</span></div>
+                        <div class="description">Диагностика и ремонтные работы компьютерной техники.</div>
+                    </div>
+                </li>
+
+            </ul>
+            <div class="promo">
+                <div class="discount">
+                    <div class="description">
+                        скидка <br />
+                        на все услуги
+                    </div>
+                    <div class="value">15%</div>
+                </div>
+                <div class="term">
+                    <div class="countdown">
+                        <div class="counter-columns">
+                            <div class="counter-box">
+                                <div class="counter">
+                                    <span class="num">0</span>
+                                    <span class="deco"></span>
+                                </div>
+                                <div class="title">часов</div>
+                            </div>
+                            <div class="counter-box">
+                                <div class="counter">
+                                    <span class="num">0</span>
+                                    <span class="deco"></span>
+                                </div>
+                                <div class="title">минут</div>
+                            </div>
+                            <div class="counter-box">
+                                <div class="counter">
+                                    <span class="num">0</span>
+                                    <span class="deco"></span>
+                                </div>
+                                <div class="title">секунд</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description">
+                        осталось <br />
+                        до конца акции
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /services -->
+    <a name="scheme"></a>
+    <div id="scheme" class="scheme">
+        <div class="top"></div>
+        <div class="central layout">
+            <ul class="steps">
+                <li>
+                    <div class="image"><img src="~/Content/images/scheme-icon-1.png" width="87" height="67" alt="" /></div>
+                    <div class="description">Обращение в&nbsp;компанию</div>
+                </li>
+                <li>
+                    <div class="image"><img src="~/Content/images/scheme-icon-2.png" width="87" height="67" alt="" /></div>
+                    <div class="description">Консультация по&nbsp;телефону</div>
+                </li>
+                <li>
+                    <div class="image"><img src="~/Content/images/scheme-icon-3.png" width="87" height="67" alt="" /></div>
+                    <div class="description">Диагностика неисправности</div>
+                </li>
+                <li>
+                    <div class="image"><img src="~/Content/images/scheme-icon-4.png" width="87" height="67" alt="" /></div>
+                    <div class="description">Ремонт, настройка, модернизация</div>
+                </li>
+            </ul>
+            <div class="stat">
+                <div class="number">14 177</div>
+                <div class="description">обращений за 5 лет работы</div>
+            </div>
+        </div>
+        <div class="bottom"></div>
+    </div>
+    <!-- /scheme -->
+    <a name="advantages"></a>
+    <div id="advantages" class="advantages">
+        <div class="central layout">
+            <h2>Почему вам стоит обратиться именно к нам:</h2>
+            <ul class="list">
+                <li>
+                    <div class="image"><img src="~/Content/images/advantages-icon-1.png" width="116" height="116" alt="" /></div>
+                    <div class="description">Оперативность <br />работы</div>
+                </li>
+                <li>
+                    <div class="image"><img src="~/Content/images/advantages-icon-2.png" width="116" height="116" alt="" /></div>
+                    <div class="description">Гарантийные <br />обязательства </div>
+                </li>
+                <li>
+                    <div class="image"><img src="~/Content/images/advantages-icon-3.png" width="116" height="116" alt="" /></div>
+                    <div class="description">Более 5 лет <br />опыта</div>
+                </li>
+                <li>
+                    <div class="image"><img src="~/Content/images/advantages-icon-4.png" width="116" height="116" alt="" /></div>
+                    <div class="description">Грамотные <br />специалисты</div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- /advantages -->
+    <div id="testimonials" class="testimonials">
+        <div class="central">
+            <h3>Отзывы о работе</h3>
+            <ul class="list">
+                <li>
+                    <div class="author">Виталий Артюшевский</div>
+                    <div class="text">
+                        После того как мой сын на устанавливал множество игр, компьютер стал жестко тормозить и перестал подгружать офисные приложения. Дмитрий, специалист компании GetHelp, пояснил проблемы и принял меры. После чего все стало работать на отлично! Благодарю сотрудников компании за быструю реакцию и качественные решения. Процветания вам
+                    </div>
+                </li>
+                <li>
+                    <div class="author">Татьяна Козлова</div>
+                    <div class="text">
+                        Ребята в прямом смысле слова спасли меня, когда я по ошибке удалила курсовую работу вместо черновиков. Град слез, испорченное настроение и чувство безысходности. По рекомендации соседа вызвала ребят из GetHelp, перед выездом попросили больше не производить никаких манипуляций над диском и дожидаться их. Через 15 минут по приезду Константина, моя курсовая снова была у меня ;) Спасибо ребята вам большое! Удачи вам в вашем не простом деле!
+                    </div>
+                </li>
+                <li>
+                    <div class="author">Ольга Журавлева</div>
+                    <div class="text">
+                        В один из прекрасных летний дней, мой компьютер перестал работать, в том числе и лампочка на системном блоке. Обратилась в компанию за помощью не прогадала. Уже через час заменили планку оперативной памяти и мой компьютер снова в строю. Благодарю за помощь.
+                    </div>
+                </li>
+                <li>
+                    <div class="author">Александр Колупов</div>
+                    <div class="text">
+                        Единственная контора, которая взялась восстанавливать мой нетбук после пролития на него сока. Честно говоря, мысленно попрощался с ним. Но в один из вечеров, ответив на входящий вызов услышал, "Ваш ноутбук готов, в которому часу доставить вам его?", честно говоря аж опешил от такого сервиса и до сих пор нахожусь под впечатлением. От всей души благодарю, теперь по всему железу - только к вам!
+                    </div>
+                </li>
+                <li>
+                    <div class="author">Илья Батуров</div>
+                    <div class="text">
+                        Купил себе новый ноутбук и как оказалось без виндовса. Позвонил в компанию, прислали мастера. Уже через полтара часа наслаждался новый игрушкой. Спасибо компании GetHelp за помощь.
+                    </div>
+                </li>
+            </ul>
+            <div class="controls"></div>
+        </div>
+    </div>
+    <!-- /testimonials -->
+    <a name="order"></a>
+    <div id="order" class="order">
+        <div class="central">
+            <div class="text">
+                <h2>Оформить заявку на выезд мастера можно по телефону:</h2>
+            </div>
+            <div class="call" style="margin-top:30px">
+
+                <h3>8 (029) 3-115-915</h3>
+
+            </div>
+        </div>
+        <img src="~/Content/images/pics/superman_flying.png" style="margin-left:35%; margin-top:60px; margin-bottom: 60px" />
+    </div>
+
+    @*@Scripts.Render("~/bundles/jquery")
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)*@
+</body>
+</html>

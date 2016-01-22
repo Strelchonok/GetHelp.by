@@ -1,0 +1,410 @@
+﻿<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Срочная компьютерная помощь по привлекательной цене</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="компьютер, ноутбук, помощь, ремонт, вирусы, windows, программы, wi-fi, интернет">
+		<link href="/favicon.ico" rel="icon" type="image/x-icon" />
+		<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+		<link href="/styles/reset.css" rel="stylesheet" />
+		<link href="/styles/global.css" rel="stylesheet" />
+		<script src="/scripts/jquery.js" type="text/javascript"></script>
+		<script src="/scripts/jquery.migrate.js" type="text/javascript"></script>
+		<script src="/scripts/jquery.countdown.js" type="text/javascript"></script>
+		<script src="/scripts/jquery.countdown.ru.js" type="text/javascript"></script>
+		<script src="/scripts/jquery.maskedinput.js" type="text/javascript"></script>
+		<script src="/scripts/global.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="header">
+			<div class="central">
+				<div class="top">
+					<div class="logotype">
+						<a href="/">
+							<span class="icon"><img src="/images/logotype-icon.png" width="43" height="37" alt="" /></span>
+							<span class="static"><span>Компьютерный-сервис24</span>.рф </span>
+							<span class="dynamic">в Казани</span>
+						</a>
+					</div>
+					<div id="navigation" class="navigation">
+						<ul>
+							<li class="link"><a href="#services">Услуги и цены</a></li>
+							<li class="link"><a href="#scheme">Схема работы</a></li>
+							<li class="link"><a href="#advantages">Преимущества</a></li>
+							<!--<li class="button"><a href="#order">Оформить</a></li>-->
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<div class="central">
+					<ul>
+						<li><a href="/kazan/virus/">Удаление вирусов</a></li>
+						<li><a href="/kazan/windows/">Установка Windows</a></li>
+						<li><a href="/kazan/wifi/">Настройка Wi-Fi</a></li>
+						<li><a href="/kazan/pc/">Ремонт компьютеров</a></li>
+						<li><a href="/kazan/laptop/">Ремонт ноутбуков</a></li>
+						<li><a href="/kazan/upgrade/">Модернизация</a></li>
+						<li><a href="/kazan/soft/">Установка программ</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- /header -->
+		<div id="intro" class="intro">
+			<div class="central">
+				<div class="center">
+					<div class="hero">
+						<img src="/images/pics/home.png" width="500" height="518" alt="" />
+					</div>
+				</div>
+				<div class="left">
+										<h1>Компьютерная помощь</h1>
+					<h2>в Казани
+					</h2>
+					<p>Наши специалисты по ремонту компьютеров и ноутбуков &mdash; добросовестные соседи, которые понимают важность вежливости и хороших отношений. Для всех жителей города предлагаем не только качественные услуги компьютерной помощи, но и самые выгодные условия.</p>
+					<div class="price">
+						<div class="from">от</div>
+						<div class="value">300<span>р</span></div>
+					</div>
+										<div class="button">
+						<a href="#order">Вызвать мастера</a>
+					</div>
+					<div class="dynamic">
+						Бесплатный выезд<br> в любой район.
+						<br>Скидка 11%<br> при заказе через сайт.					
+						</div>
+				</div>
+				<div class="right">
+					<div class="contact">
+						<div class="schedule">
+							круглосуточно <br />
+							без выходных
+						</div>
+						<div class="phone">8 (843) 202-40-36&nbsp;&nbsp;</div>
+					</div>
+					<div class="advantages">
+						<ul>
+							<li>
+								<div class="image"><img src="/images/advantages-icon-1-small.png" width="41" height="42" alt="" /></div>
+								<div class="description">
+									срочный выезд <br />
+									в течение 1 часа
+								</div>
+							</li>
+							
+							<li>
+								<div class="image"><img src="/images/advantages-icon-2-small.png" width="41" height="42" alt="" /></div>
+								<div class="description">
+									гарантия <br />
+									на все работы
+								</div>
+							</li>
+							<li>
+								<div class="image"><img src="/images/advantages-icon-3-small.png" width="41" height="42" alt="" /></div>
+								<div class="description">
+									более 12 лет <br />
+									опыта
+								</div>
+							</li>
+							<li>
+								<div class="image"><img src="/images/advantages-icon-4-small.png" width="41" height="42" alt="" /></div>
+								<div class="description">
+									профессиональные <br />
+									мастера
+								</div>
+							</li>
+							<li>
+								<div class="image"><img src="/images/advantages-icon-1-small.png" width="41" height="42" alt="" /></div>
+								<div class="description">
+									приезжаем в <br />
+									удобное время
+								</div>
+							</li>
+							<li>
+								<div class="image"><img src="/images/advantages-icon-2-small.png" width="41" height="42" alt="" /></div>
+								<div class="description">
+									честные цены
+								</div>
+							</li>
+
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /intro -->
+		<a name="price"></a>
+		<div id="services" class="services">
+			<div class="central layout">
+				<h2>Качественные услуги по выгодным ценам:</h2>
+				<ul class="list">
+					<li>
+												<div class="image"><img src="/images/service-icon-1.png" width="98" height="98" alt="" /></div>
+						<div class="group">
+							<div class="name">Удаление вирусов</div>
+							<div class="price">300 руб. <span>500 руб.</span></div>
+							<div class="description">Компьютер или ноутбук заражен вирусами? Срочно удалим любые типы вирусов.</div>
+						</div>
+					</li>
+					<li>
+												<div class="image"><img src="/images/service-icon-6.png" width="98" height="98" alt="" /></div>
+						<div class="group">
+							<div class="name">Установка Windows</div>
+							<div class="price">500 руб. <span>850 руб.</span></div>
+							<div class="description">Переустановим операционную систему Windows c сохранением данных.</div>
+						</div>
+					</li>
+					<li>
+												<div class="image"><img src="/images/service-icon-2.png" width="98" height="98" alt="" /></div>
+						<div class="group">
+							<div class="name">Настройка Wi-Fi</div>
+							<div class="price">450 руб. <span>500 руб.</span></div>
+							<div class="description">Быстро и надежно настроим компьютер, ноутбук, iPad для выхода в Интернет через Wi-Fi.</div>
+						</div>
+					</li>
+					<li>
+												<div class="image"><img src="/images/service-icon-4.png" width="98" height="98" alt="" /></div>
+						<div class="group">
+							<div class="name">Настройка интернета</div>
+							<div class="price">450 руб. <span>480 руб.</span></div>
+							<div class="description">Обеспечим надежный и высокоскоростной доступ в Интернет.</div>
+						</div>
+					</li>
+					<li>
+												<div class="image"><img src="/images/service-icon-5.png" width="98" height="98" alt="" /></div>
+						<div class="group">
+							<div class="name">Установка антивируса</div>
+							<div class="price">430 руб. <span>500 руб.</span></div>
+							<div class="description">Установим и настроим антивирус по вашему выбору.</div>
+						</div>
+					</li>
+					<li>
+												<div class="image"><img src="/images/service-icon-3.png" width="98" height="98" alt="" /></div>
+						<div class="group">
+							<div class="name">Ремонт и модернизация</div>
+							<div class="price">490 руб. <span>650 руб.</span></div>
+							<div class="description">Мы уверены, что являемся лучшей сервисной мастерской по ремонту ноутбуков.</div>
+						</div>
+					</li>
+				
+				</ul>
+				<div class="promo">
+					<div class="discount">
+						<div class="description">
+							скидка <br />
+							на все услуги
+						</div>
+						<div class="value">11%</div>
+					</div>
+					<div class="term">
+						<div class="countdown">
+							<div class="counter-columns">
+								<div class="counter-box">
+									<div class="counter">
+										<span class="num">0</span>
+										<span class="deco"></span>
+									</div>
+									<div class="title">часов</div>
+								</div>
+								<div class="counter-box">
+									<div class="counter">
+										<span class="num">0</span>
+										<span class="deco"></span>
+									</div>
+									<div class="title">минут</div>
+								</div>
+								<div class="counter-box">
+									<div class="counter">
+										<span class="num">0</span>
+										<span class="deco"></span>
+									</div>
+									<div class="title">секунд</div>
+								</div>
+							</div>
+						</div>
+						<div class="description">
+							осталось <br />
+							до конца акции
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /services -->
+		<a name="scheme"></a>
+		<div id="scheme" class="scheme">
+			<div class="top"></div>
+			<div class="central layout">
+				<ul class="steps">
+					<li>
+						<div class="image"><img src="/images/scheme-icon-1.png" width="87" height="67" alt="" /></div>
+						<div class="description">Обращение в&nbsp;компанию</div>
+					</li>
+					<li>
+						<div class="image"><img src="/images/scheme-icon-2.png" width="87" height="67" alt="" /></div>
+						<div class="description">Консультация по&nbsp;телефону</div>
+					</li>
+					<li>
+						<div class="image"><img src="/images/scheme-icon-3.png" width="87" height="67" alt="" /></div>
+						<div class="description">Диагностика неисправности</div>
+					</li>
+					<li>
+						<div class="image"><img src="/images/scheme-icon-4.png" width="87" height="67" alt="" /></div>
+						<div class="description">Ремонт, настройка, модернизация</div>
+					</li>
+				</ul>
+				<div class="stat">
+					<div class="number">34 520</div>
+					<div class="description">обращений за 2013 год</div>
+				</div>
+			</div>
+			<div class="bottom"></div>
+		</div>
+		<!-- /scheme -->
+		<a name="advantages"></a>
+		<div id="advantages" class="advantages">
+			<div class="central layout">
+				<h2>Почему вам стоит обратиться именно к нам:</h2>
+				<ul class="list">
+					<li>
+						<div class="image"><img src="/images/advantages-icon-1.png" width="116" height="116" alt="" /></div>
+						<div class="description">Срочный выезд <br />в течение 1 часа</div>
+					</li>
+					<li>
+						<div class="image"><img src="/images/advantages-icon-2.png" width="116" height="116" alt="" /></div>
+						<div class="description">Гарантия на все <br />работы</div>
+					</li>
+					<li>
+						<div class="image"><img src="/images/advantages-icon-3.png" width="116" height="116" alt="" /></div>
+						<div class="description">Более 12 лет <br />опыта</div>
+					</li>
+					<li>
+						<div class="image"><img src="/images/advantages-icon-4.png" width="116" height="116" alt="" /></div>
+						<div class="description">Профессиональные <br />инженеры</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- /advantages -->
+		<div id="testimonials" class="testimonials">
+			<div class="central">
+				<h3>Отзывы о работе</h3>
+				<ul class="list">
+					<li>
+						<div class="author">Юрий</div>
+						<div class="text">
+							Посоветовал фирму знакомый, сказал, что сделают как надо. Действительно, уже через час после приезда инженера Сергея компьютер работал как новенький. Осталось хорошее впечатление. Советую. Сергею - успехов и процветания.
+						</div>
+					</li>
+					<li>
+						<div class="author">Елена</div>
+						<div class="text">
+							Уважаемые сотрудники компьютерного сервиса! Хочу выразить неземную благодарность вашему сотруднику и дал мне четкую рекомендацию по самостоятельному "ремонту" неисправности моего компьютера. Неработала клавиатура, а там оказывается всего навсего нужно было воткнуть обратно отошедший провод. Большое спасибо!
+						</div>
+					</li>
+					<li>
+						<div class="author">Никита Юрьевич</div>
+						<div class="text">
+							Была следующая проблема: при начале компьютер вдруг переставал функционировать (купили в 2012 г.). Решили выбрать ваш сервис, т.к. работаете без выходных и круглосуточно. Приехал приятный молодой мастер (имени, к сожалению не вспомню), свою работу выполнил быстро и качественно. Сделал скидку, плюс дал гарантию на ремонт. Остались очень довольны!
+						</div>
+					</li>
+					<li>
+						<div class="author">Александр</div>
+						<div class="text">
+							Вечером все было нормально, а утром компьютер отказался включаться. Сосед дал номер телефона и порекомендовал вызвать мастера. После звонка мастер приехал, как и договаривались к обеденному перерыву. Не могу сказать, что он там делал, но уже минут через 40-50 наш компьютер заработал.  Очень благодарен за качественный ремонт.
+						</div>
+					</li>
+					<li>
+						<div class="author">Марина</div>
+						<div class="text">
+							Решила написать положительный отзыв, потому что ребята действительно оказались очень профессиональными. Оговорили время визита, я отпросилась с работы, и точно в это время парень приехал и всё починил за один раз и никаких недельных ожиданий и тянучки, всё у него с собой было. За час всё починил. Мастеру Илье отдельное спасибо )))
+						</div>
+					</li>
+				</ul>
+				<div class="controls"></div>
+			</div>
+		</div>
+		<!-- /testimonials -->
+		<a name="order"></a>
+		<div id="order" class="order">
+			<div class="central">
+				<div class="text">
+					<h2>Оформите заявку на выезд специалиста компьютерной помощи:</h2>
+					<p>Укажите ваш телефонный номер<br> и наши специалисты позвонят в течение 3 минут.</p>
+				</div>
+				<div class="form">
+	
+                    <input type="hidden" id="apikey2" name="apikey" value="e60dcf5b717e3a2047abe852eee1ac3a" />
+                    <input type="hidden" id="title" value="Компьютерная помощь в Казани" />
+                    <input type="hidden" id="name" value="Компьютерная помощь" />
+                    <input type="hidden" id="question" value="в Казани" />
+                    <input type="hidden" id="cityName" value="Казань" />
+					<input type="hidden" name="__wlp_p" value="http://xn---24-fddnbwehumjopeoeh8opa6b.xn--p1ai/images/scheme-top-bg.png" />
+<input type="hidden" name="__wlp_r" value="" />
+<input type="hidden" name="__wlp_t" value="1403421002" />
+<input type="hidden" name="__wlp_f" value="http://xn---24-fddnbwehumjopeoeh8opa6b.xn--p1ai/images/scheme-top-bg.png" />
+
+					<input type="text" id="phone" name="phone" value="" placeholder="Ваш телефон" />
+					<button>Вызвать</button>
+		
+
+
+				</div>
+				<div class="call">
+					<p>Или позвоните нам по телефону</p>
+					<h3>8 (843) 202-40-36</h3>
+				</div>
+			</div>
+		</div>
+		<div class="map">
+						<iframe width="110%" height="500" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.ru/maps?ie=UTF8&amp;ll=55.807263,49.129829&amp;spn=0.144898,0.41851&amp;t=m&amp;z=12&amp;output=embed"></iframe>
+						<div class="over"></div>
+		</div>
+<script type="text/javascript">
+
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-46019994-1']);
+_gaq.push(['_setDomainName', '.xn---24-fddnbwehumjopeoeh8opa6b.xn--p1ai']); 
+_gaq.push(['_setAllowLinker', true]); 
+_gaq.push(['_addIgnoredOrganic', 'xn---24-fddnbwehumjopeoeh8opa6b.xn--p1ai']); 
+_gaq.push(['_addIgnoredOrganic', 'www.xn---24-fddnbwehumjopeoeh8opa6b.xn--p1ai']); 
+_gaq.push(['_setAllowAnchor', true]); 
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>	
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+(function (d, w, c) {
+    (w[c] = w[c] || []).push(function() {
+        try {
+            w.yaCounter23175496 = new Ya.Metrika({id:23175496,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true});
+        } catch(e) { }
+    });
+
+    var n = d.getElementsByTagName("script")[0],
+        s = d.createElement("script"),
+        f = function () { n.parentNode.insertBefore(s, n); };
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+    if (w.opera == "[object Opera]") {
+        d.addEventListener("DOMContentLoaded", f, false);
+    } else { f(); }
+})(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/23175496" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+	</body>
+</html>

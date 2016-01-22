@@ -1,0 +1,728 @@
+
+
+@font-face {
+    font-family: 'DinProBold';
+    src: url('../fonts/DinProBold.eot');
+    src: url('../fonts/DinProBold.eot-#iefix') format('embedded-opentype'),
+         url('../fonts/DinProBold.woff') format('woff'),
+         url('../fonts/DinProBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DinProRegular';
+    src: url('../fonts/DinProRegular.eot');
+    src: url('../fonts/DinProRegular.eot-#iefix') format('embedded-opentype'),
+         url('../fonts/DinProRegular.woff') format('woff'),
+         url('../fonts/DinProRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DinCondensed';
+    src: url('../fonts/DinCondensed.eot');
+    src: url('../fonts/DinCondensed.eot-#iefix') format('embedded-opentype'),
+         url('../fonts/DinCondensed.woff') format('woff'),
+         url('../fonts/DinCondensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+	background: #fff;
+	color: #384035;
+	cursor: default;
+}
+img {
+	vertical-align: bottom;
+}
+a {
+	text-decoration: none;
+}
+.clearfix:before, .clearfix:after {
+	content: '';
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+	zoom: 1;
+}
+
+
+.central {
+	width: 1000px;
+	margin: 0 auto;
+}
+
+
+.header {
+	overflow: hidden;
+	border-bottom: 1px solid #e0e0e0;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+	font-family: DinCondensed, sans-serif;
+	font-size: 20px;
+	text-transform: uppercase;
+	position: fixed;
+	width: 100%;
+	background: #fff;
+	z-index: 40;
+	top: 0;
+}
+.header .top {
+	overflow: hidden;
+}
+.header .logotype {
+	float: left;
+	padding-bottom:8px;
+	padding-top:2px;
+}
+.header .icon {
+	float: left;
+	margin-top: 6px;
+	display: block;
+}
+.header .static {
+	float: left;
+	margin: 18px 0 0 10px;
+	display: block;
+	color: #384035;
+}
+.header .static span {
+	text-transform: none;
+}
+.header .dynamic {
+	float: left;
+	margin: 10px 0 0 10px;
+	padding: 8px 8px 6px 8px;
+	background: #cd4343;
+	color: #fff;
+	border-radius: 3px;
+	display: block;
+}
+
+.header .navigation {
+	float: left;
+	/*padding-left: 10px;*/
+}
+.header .navigation li {
+	float: left;
+}
+    .header .navigation .link {
+        padding: 0 0 0 30px;
+        background: url('images/navigation-devide.png') 18px 24px no-repeat;
+        
+    }
+.header .navigation .link:first-child {
+	background: none;
+}
+.header .navigation .link a {
+	display: block;
+	color: #2469a6;
+	border-bottom: 1px dotted #2469a6;
+	padding: 18px 0 0 0;
+}
+.header .navigation .link a:hover {
+	border-bottom: none;
+}
+.header .navigation .button {
+	margin-left: 36px;
+}
+.header .navigation .button a {
+	display: block;
+	background: #98c63a;
+	background: -moz-linear-gradient(top, #c3da4f 0%, #58971c 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c3da4f), color-stop(100%, #58971c));
+	background: -webkit-linear-gradient(top,  #c3da4f 0%, #58971c 100%);
+	background: -o-linear-gradient(top, #c3da4f 0%, #58971c 100%);
+	background: -ms-linear-gradient(top, #c3da4f 0%, #58971c 100%);
+	background: linear-gradient(to bottom, #c3da4f 0%, #58971c 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#c3da4f', endColorstr = '#58971c', GradientType=0);
+	border-bottom: none;
+	color: #fff;
+	padding: 18px;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+}
+.header .bottom {
+	background: #1C4D97;
+	padding: 15px 0;
+	font-size: 18px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+}
+.header .bottom ul {
+	overflow: hidden;
+	width: 1100px;
+}
+.header .bottom li {
+	float: left;
+	margin-right: 23px;
+}
+.header .bottom a {
+	color: #fff;
+	text-shadow: -1px -1px rgba(0, 0, 0, 0.2);
+}
+
+
+.intro {
+	overflow: hidden;
+	height: 610px;
+	margin-top: 60px;
+}
+.intro .left {
+	float: left;
+	margin-top: 80px;
+	width: 450px;
+	position: relative;
+}
+.intro .left h1 {
+	font-size: 30px;
+	font-family: DinProBold, sans-serif;
+	text-transform: uppercase;
+}
+.intro .left h2 {
+	font-size: 20px;
+	font-family: DinProBold, sans-serif;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+.intro .left p {
+	margin-top: 25px;
+	font-size: 15px;
+	line-height: 20px;
+	font-family: DinProRegular, sans-serif;
+}
+.intro .left .price {
+	overflow: hidden;
+	color: #2469a6;
+	margin-top: 40px;
+}
+.intro .left .price .from {
+	float: left;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 13px;
+}
+.intro .left .price .value {
+	float: left;
+	font-family: DinProBold, sans-serif;
+	
+	font-size: 72px;
+	margin-left: 10px;
+}
+
+.intro .left .price .value span {
+	font-size: 30px;
+	position:relative;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+.intro .left .price .value span:after {
+	
+	position: absolute;
+	margin-left: -40px;
+	margin-top: 10px;
+}
+.intro .left .button {
+	margin-top: 50px;
+}
+.intro .left .button a, .button2 {
+	display: block;
+	background: #B40000;
+	background: -moz-linear-gradient(top, #FF9191 0%, #B40000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF9191), color-stop(100%, #B40000));
+	background: -webkit-linear-gradient(top, #FF9191 0%, #B40000 100%);
+	background: -o-linear-gradient(top, #FF9191 0%, #B40000 100%);
+	background: -ms-linear-gradient(top, #FF9191 0%, #B40000 100%);
+	background: linear-gradient(to bottom, #FF9191 0%, #B40000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#FF9191', endColorstr = '#B40000',GradientType = 0);
+	color: #fff;
+	width: 250px;
+	text-align: center;
+	font-size: 28px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	padding: 10px 0;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+	border-radius: 3px;
+}
+
+.intro .left .dynamic {
+	margin-top: 20px;
+	font-size: 13px;
+	line-height: 20px;
+	font-family: DinProRegular, sans-serif;
+	text-align: center;
+	
+}
+.intro .right {
+	float: right;
+	margin-top: 80px;
+	position: relative;
+}
+.intro .right .contact {
+	overflow: hidden;
+	
+}
+.intro .right .contact .schedule {
+	float: left;
+	font-family: DinProRegular, sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+	text-transform: uppercase;
+	margin-top: 6px;
+}
+.intro .right .contact .phone {
+	float: right;
+	font-family: DinProBold, sans-serif;
+	font-size: 40px;
+	margin-left: 20px;
+}
+.intro .right .advantages {
+	float: right;
+	font-size: 12px;
+	line-height: 15px;
+	text-transform: uppercase;
+	font-family: DinProBold, sans-serif;
+	margin-top: 50px;
+}
+.intro .right .advantages li {
+	overflow: hidden;
+	margin-top: 20px;
+}
+.intro .right .advantages .image {
+	float: left;
+}
+.intro .right .advantages .description {
+	float: left;
+	margin: 8px 0 0 10px;
+}
+.intro .center {
+
+    position: relative;
+	position: absolute;
+	margin: 110px 0 0 440px;
+}
+
+
+.services {
+    overflow: hidden;
+    padding: 0 0 90px 0;
+    background: url('images/services-bg.png') 0 0 repeat-x;
+   
+}
+.services .layout {
+	overflow: hidden;
+}
+.services h2 {
+	font-size: 30px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 80px;
+}
+.services .list {
+	overflow: hidden;
+	width: 1200px;
+	
+}
+.services .list li {
+	float: left;
+	width: 308px;
+	margin-top: 40px;
+	margin-right: 35px;
+}
+.services .list .image {
+	float: left;
+}
+.services .list .group {
+	float: left;
+	margin-left: 20px;
+	width: 180px;
+}
+.services .list .name {
+	font-size: 18px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+}
+.services .list .price {
+	font-size: 18px;
+	font-family: DinCondensed, sans-serif;
+
+	margin-top: 3px;
+}
+.services .list .price span {
+	color: #cd4343;
+	text-decoration: line-through;
+}
+.services .list .description {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: DinProRegular, sans-serif;
+	margin-top: 10px;
+}
+.services .promo {
+	overflow: hidden;
+	margin-top: 80px;
+	margin-left: 140px;
+}
+.services .promo .discount {
+	overflow: hidden;
+	float: left;
+	margin-top: 8px;
+}
+.services .promo .discount {
+	overflow: hidden;
+	color: #cd4343;
+}
+.services .promo .discount .description {
+	font-size: 20px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	text-align: right;
+	float: left;
+	margin-top: 12px;
+}
+.services .promo .discount .value {
+	font-family: DinProBold, sans-serif;
+	text-transform: uppercase;
+	font-size: 72px;
+	float: left;
+	margin-left: 10px;
+}
+.services .promo .term {
+	overflow: hidden;
+	float: left;
+}
+.services .promo .term .countdown {
+	float: left;
+	margin-left: 40px;
+}
+.counter-columns{
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	padding-left: 20px;
+}
+.counter-box {
+	float: left;
+	text-align: center;
+}
+.counter-box .title {
+	font-size: 12px;
+	line-height: 16px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	position: absolute;
+	margin-left: -20px;
+	margin-top: 85px;
+	z-index: 20;
+	width: 104px;
+}
+.counter {
+    background: url('images/counter-bg.png') no-repeat;
+    width: 104px;
+    height: 99px;
+    font-size: 52px;
+    line-height: 80px;
+    font-family: DinProBold, sans-serif;
+    position: relative;
+    margin-left: -20px;
+    z-index: 10;
+}
+.counter .deco {
+	background: #fff;
+	height: 1px;
+	top: 44px;
+	left: 20px;
+	right: 20px;
+	position: absolute;
+	opacity: 0.5;
+	text-indent: -9999px;
+}
+.services .promo .term .description {
+	font-size: 20px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	float: left;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+
+.scheme {
+	background: #f6f5f5;
+}
+.scheme .top {
+	height: 10px;
+	background: url('images/scheme-bottom-bg.png') 0 0 repeat-x;
+}
+.scheme .bottom {
+	height: 10px;
+	background: url('images/scheme-top-bg.png') 0 0 repeat-x;
+}
+.scheme .layout {
+	overflow: hidden;
+	padding: 90px 0 70px 0;
+}
+.scheme .steps {
+	overflow: hidden;
+	width: 1200px;
+	font-size: 18px;
+	line-height: 22px;
+	font-family: DinProRegular, sans-serif;
+	text-transform: uppercase;
+}
+.scheme .steps li {
+	width: 230px;
+	float: left;
+	text-align: center;
+	margin: 0 10px;
+	background: url('images/scheme-devide.png') 100% 40px no-repeat;
+}
+.scheme .steps li:last-child {
+	background: none;
+}
+.scheme .steps .description {
+	margin-top: 25px;
+}
+.scheme .stat {
+	text-align: center;
+	color: #2469a6;
+	margin-top: 50px;
+}
+.scheme .stat .number {
+	font-size: 72px;
+	font-family: DinProBold, sans-serif;
+}
+.scheme .stat .description {
+	font-size: 20px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+
+
+.advantages .layout {
+	overflow: hidden;
+}
+.advantages h2 {
+	font-size: 30px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 80px;
+}
+.advantages .list {
+	overflow: hidden;
+	width: 1200px;
+	font-size: 22px;
+	line-height: 26px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	margin: 50px 0 0 60px;
+}
+    .advantages .list li {
+        width: 220px;
+        padding-right: 20px;
+        float: left;
+        text-align: center;
+        background: url(images/advantages-devide.png) 100% 40px no-repeat;
+ 
+    }
+.advantages .list li:last-child {
+	background: none;
+}
+.advantages .list .description {
+	margin-top: 20px;
+}
+
+
+.testimonials {
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 70px;
+}
+.testimonials .central {
+	width: 700px;
+	margin: 0 auto;
+}
+
+
+.testimonials h3 {
+	font-size: 18px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	margin-top: 90px;
+	border-bottom: 1px solid #e0e0e0;
+	padding-bottom: 20px;
+}
+.testimonials .list .author {
+	font-size: 18px;
+	line-height: 22px;
+	font-family: DinProRegular, sans-serif;
+	text-transform: uppercase;
+	margin-top: 25px;
+}
+.testimonials .list .text {
+	font-size: 15px;
+	line-height: 20px;
+	font-family: DinProRegular, sans-serif;
+	width: 450px;
+	margin: 15px auto 0 auto;
+}
+.testimonials .controls {
+	margin-top: 30px;
+}
+.testimonials .controls span {
+	background: #2469a6;
+	background: -moz-linear-gradient(top, #37a0d5 0%, #113176 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #37a0d5), color-stop(100%, #113176));
+	background: -webkit-linear-gradient(top, #37a0d5 0%, #113176 100%);
+	background: -o-linear-gradient(top, #37a0d5 0%, #113176 100%);
+	background: -ms-linear-gradient(top, #37a0d5 0%, #113176 100%);
+	background: linear-gradient(to bottom, #37a0d5 0%, #113176 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#37a0d5', endColorstr = '#113176',GradientType = 0);
+	display: inline-block;
+	text-indent: -9999px;
+	width: 15px;
+	height: 15px;
+	margin: 0 5px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+.testimonials .controls .active {
+	background: #e1e0e0;
+	cursor: default;
+}
+
+
+.order {
+	overflow: hidden;
+	padding-bottom: 70px;
+	background: #231f20 url('images/order-bg.png') 0 0 repeat-x;
+}
+.order .text h2 {
+	font-size: 30px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+	margin-top: 80px;
+	color: #fafafa;
+}
+.order .text p {
+	text-align: center;
+	font-size: 15px;
+	line-height: 20px;
+	font-family: DinProRegular, sans-serif;
+	width: 570px;
+	margin: 25px auto 0 auto;
+	text-transform: uppercase;
+	color: #e3e2e0;
+}
+.order .form {
+	border: 1px solid #606060;
+	border-radius: 5px;
+	width: 480px;
+	height: 60px;
+	margin-top: 30px;
+	margin-left: 260px;
+	overflow: hidden;
+}
+.order .form input {
+	font-family: DinProRegular, sans-serif;
+	font-size: 30px;
+	color: #ababab;
+	background: transparent;
+	border: none;
+	margin-top: 12px;
+	margin-left: 15px;
+	float: left;
+	width: 260px;
+}
+.order .form button {
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	color: #fff;
+	background: #cd4343;
+	border: none;
+	margin-top: 8px;
+	margin-left: 15px;
+	float: left;
+	border-radius: 3px;
+	text-align: center;
+	width: 180px;
+	height: 45px;
+	cursor: pointer;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+}
+.order .call {
+	color: #ffffff;
+}
+.order .call h3 {
+	font-size: 75px;
+	font-family: DinProBold, sans-serif;
+	text-transform: uppercase;
+	text-align: center;
+}
+.order .call p {
+	text-align: center;
+	font-size: 12px;
+	font-family: DinProBold, sans-serif;
+	width: 570px;
+	margin: 45px auto 0 auto;
+	text-transform: uppercase;
+}
+
+
+.map {
+	overflow: hidden;
+}
+.map iframe {
+	margin-top: -30px;
+	margin-left: -50px;
+}
+.map .over {
+	position: absolute;
+	height: 500px;
+	width: 100%;
+	margin-top: -500px;
+}
+#u323-2
+{
+	color: #C1272D;
+}
+.form1{
+    margin-top: 30px;
+    margin-left: 320px;
+    color:white;
+}
+#ivan{
+    width: 256px;
+}
+.form12{
+    background: #cd4343;
+    border: 1px solid  #FF8787;
+    font-family: DinCondensed, sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+}
+#tel24{
+    float: right;
+    color:#B40000;
+    font-family: DinProBold, sans-serif;
+font-size: 35px;
+padding-top: 8px;
+}
+#zvoni{
+    float: left;
+    font-family: DinCondensed, sans-serif;
+    padding-left: 25px;
+    padding-top: 20px;
+    font-size: 17px;
+    color: black;
+}
