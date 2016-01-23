@@ -204,6 +204,9 @@
     <Content Include="Content\images\services-bg.png" />
     <Content Include="Content\images\Visuals\boy-joy-computer photosdotcom.jpg" />
     <Content Include="Content\images\Visuals\happy-woman-using-computer.jpg" />
+    <Content Include="Content\images\Visuals\virus.png" />
+    <Content Include="Content\images\Visuals\wi-fi.png" />
+    <Content Include="Content\images\Visuals\windows.png" />
     <Content Include="Content\reset.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -262,6 +265,10 @@
     <Content Include="fonts\DinProRegular.woff" />
     <None Include="Project_Readme.html" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\Viruses.cshtml" />
+    <Content Include="Views\Home\InstWin.cshtml" />
+    <Content Include="Views\Home\WiFi.cshtml" />
+    <Content Include="Views\Home\RepairComp.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

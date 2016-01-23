@@ -14,5 +14,33 @@ namespace GetHelp.Controllers
 
             return View();
         }
+
+        public ActionResult Viruses()
+        {
+            ViewBag.Title = "Viruses";
+
+            return View();
+        }
+
+        public ActionResult InstWin()
+        {
+            ViewBag.Title = "Viruses";
+
+            return View();
+        }
+
+        public ActionResult WiFi()
+        {
+            ViewBag.Title = "WiFI";
+
+            return View();
+        }
+
+        public ActionResult RepairComp()
+        {
+            ViewBag.Title = "RepairComp";
+
+            return View();
+        }
     }
 }

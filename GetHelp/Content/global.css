@@ -213,7 +213,7 @@ a {
 }
 
 .intro .left .price .value span {
-	font-size: 30px;
+	font-size: 50px;
 	position:relative;
 	margin-left: 5px;
 	margin-top: 10px;
@@ -299,11 +299,18 @@ a {
 	float: left;
 	margin: 8px 0 0 10px;
 }
+
+    .intro .centerMain {
+        position: relative;
+        position: absolute;
+        margin: 110px 0 0 420px;
+    }
+
 .intro .center {
 
     position: relative;
 	position: absolute;
-	margin: 110px 0 0 440px;
+	margin: 169px 0 0 310px;
 }
 
 
