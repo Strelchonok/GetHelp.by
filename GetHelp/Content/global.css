@@ -207,7 +207,6 @@ a {
 .intro .left .price .value {
 	float: left;
 	font-family: DinProBold, sans-serif;
-	
 	font-size: 72px;
 	margin-left: 10px;
 }
@@ -217,7 +216,13 @@ a {
 	position:relative;
 	margin-left: 5px;
 	margin-top: 10px;
-}
+  }
+
+#rub {
+	font-size: 25px;
+	margin-left: 5px;
+	margin-top: 10px;
+  }
 
 .intro .left .price .value span:after {
 	
