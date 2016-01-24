@@ -276,6 +276,7 @@
     <Content Include="Views\Home\RepairBook.cshtml" />
     <Content Include="Views\Home\Programs.cshtml" />
     <Content Include="Views\Home\Modern.cshtml" />
+    <None Include="Properties\PublishProfiles\Host.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
