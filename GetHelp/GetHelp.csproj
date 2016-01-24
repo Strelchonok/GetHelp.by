@@ -204,6 +204,10 @@
     <Content Include="Content\images\services-bg.png" />
     <Content Include="Content\images\Visuals\boy-joy-computer photosdotcom.jpg" />
     <Content Include="Content\images\Visuals\happy-woman-using-computer.jpg" />
+    <Content Include="Content\images\Visuals\modern.png" />
+    <Content Include="Content\images\Visuals\programs.png" />
+    <Content Include="Content\images\Visuals\Repair.png" />
+    <Content Include="Content\images\Visuals\RepairBook.png" />
     <Content Include="Content\images\Visuals\virus.png" />
     <Content Include="Content\images\Visuals\wi-fi.png" />
     <Content Include="Content\images\Visuals\windows.png" />
@@ -269,6 +273,9 @@
     <Content Include="Views\Home\InstWin.cshtml" />
     <Content Include="Views\Home\WiFi.cshtml" />
     <Content Include="Views\Home\RepairComp.cshtml" />
+    <Content Include="Views\Home\RepairBook.cshtml" />
+    <Content Include="Views\Home\Programs.cshtml" />
+    <Content Include="Views\Home\Modern.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
