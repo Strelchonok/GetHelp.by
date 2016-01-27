@@ -205,6 +205,7 @@
     <Content Include="Content\images\Visuals\boy-joy-computer photosdotcom.jpg" />
     <Content Include="Content\images\Visuals\happy-woman-using-computer.jpg" />
     <Content Include="Content\images\Visuals\modern.png" />
+    <Content Include="Content\images\Visuals\myIcon.png" />
     <Content Include="Content\images\Visuals\programs.png" />
     <Content Include="Content\images\Visuals\Repair.png" />
     <Content Include="Content\images\Visuals\RepairBook.png" />
@@ -239,6 +240,7 @@
     <Content Include="Scripts\jquery.js" />
     <Content Include="Scripts\jquery.maskedinput.js" />
     <Content Include="Scripts\jquery.migrate.js" />
+    <Content Include="Scripts\YandexMap.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -277,6 +279,8 @@
     <Content Include="Views\Home\Programs.cshtml" />
     <Content Include="Views\Home\Modern.cshtml" />
     <None Include="Properties\PublishProfiles\Host.pubxml" />
+    <Content Include="Views\Home\WhereAreYou.cshtml" />
+    <Content Include="Views\Shared\_LayoutNonBenefits.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
