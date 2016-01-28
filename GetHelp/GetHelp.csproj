@@ -166,6 +166,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Content\bootstrap.css" />
     <Content Include="Content\cs.min.js" />
     <Content Include="Content\global.css" />
     <Content Include="Content\images\advantages-devide.png" />
@@ -279,8 +280,6 @@
     <Content Include="Views\Home\Programs.cshtml" />
     <Content Include="Views\Home\Modern.cshtml" />
     <None Include="Properties\PublishProfiles\Host.pubxml" />
-    <Content Include="Views\Home\WhereAreYou.cshtml" />
-    <Content Include="Views\Shared\_LayoutNonBenefits.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
