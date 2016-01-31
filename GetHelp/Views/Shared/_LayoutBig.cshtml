@@ -66,7 +66,7 @@
     </div>
 
 
-    <div class="present" id="present">
+    <div class="present" id="intro">
         <div class="central">
             <div class="centerUP">
                 <div class="UPLeft">
@@ -142,95 +142,7 @@
     </div>
     
     <!-- /header -->
-    @*<div id="intro" class="intro">
-            <div class="central">
 
-                <div class="centerMain">
-                    <div class="heroMain">
-                     <img src="~/Content/images/pics/home.png" alt="" />
-                </div>
-                </div>
-                <div class="left">
-                    <h1>Компьютерная помощь</h1>
-                    <h2>
-                        Минск
-                    </h2>
-                    <p>
-                        Специалисты нашей компании с радостью окажут добросовестную помощь по ремонту и обслуживанию компьютерной техники на самых выгодных условиях.
-                        Сотрудничая с нами, вы всегда можете рассчитывать на высокую квалификацию, пунктуальность, оперативность и гарантийные обязательства.
-                    </p>
-                    <p>
-                        Разнообразные акционные предложения и программа лояльности для постоянных клиентов сберегут Ваш бюджет и позволят воспользоваться лучшим
-                        соотношением цена – качество!
-                    </p>
-                    <div class="price">
-                        <div class="from">от</div>
-                        <div class="value">170<span>000</span><span id="rub">р.</span></div>
-                    </div>
-                    <div class="button">
-                        <a href="#order">Вызвать мастера</a>
-                    </div>
-                </div>
-
-                @RenderBody()
-
-                <div class="right">
-                    <div class="contact">
-                        <div class="schedule">
-                            круглосуточно <br />
-                            без выходных
-                        </div>
-                        <div class="phone">(29) 311-59-15</div>
-                    </div>
-                    <div class="advantages">
-                        <ul>
-                            <li>
-                                <div class="image"><img src="~/Content/images/advantages-icon-1-2-small.png" width="41" height="42" alt="" /></div>
-                                <div class="description">
-                                    оперативность <br />
-                                    работы
-                                </div>
-                            </li>
-
-                            <li>
-                                <div class="image"><img src="~/Content/images/advantages-icon-2-2-small.png" width="41" height="42" alt="" /></div>
-                                <div class="description">
-                                    гарантийные <br />
-                                    обязательства
-                                </div>
-                            </li>
-                            <li>
-                                <div class="image"><img src="~/Content/images/advantages-icon-3-2-small.png" width="41" height="42" alt="" /></div>
-                                <div class="description">
-                                    более 5 лет <br />
-                                    опыта
-                                </div>
-                            </li>
-                            <li>
-                                <div class="image"><img src="~/Content/images/advantages-icon-4-2-small.png" width="41" height="42" alt="" /></div>
-                                <div class="description">
-                                    грамотные <br />
-                                    специалисты
-                                </div>
-                            </li>
-                            <li>
-                                <div class="image"><img src="~/Content/images/advantages-icon-2-small.png" width="41" height="42" alt="" /></div>
-                                <div class="description">
-                                    прозрачное <br />
-                                    ценообразование
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>*@
-
-
-
-
-    <!-- /intro -->
     <a name="price"></a>
     <div id="services" class="services">
         <div class="central layout">
@@ -441,21 +353,21 @@
                         </li>
                         <li>
                             <label for="name">Имя:</label>
-                            <input type="text" placeholder="Сережа Сыроежкин" required />
+                            <input type="text" placeholder="Имя Фамилия" required maxlength="126" />
                         </li>
                         <li>
-                            <label for="email">Email:</label>
-                            <input type="email" name="email" placeholder="john_doe@example.com" required />
-                            <span class="form_hint">Proper format "name@something.com"</span>
+                            <label for="telephone">Телефон:</label>
+                            <input type="tel" name="telephone" placeholder="(XXX) XX XXX-XX-XX" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,15}$" required />
+                            <span class="form_hint">Допустимый формат "375 29 110 20 30"</span>
                         </li>
                         <li>
-                            <label for="website">Website:</label>
-                            <input type="url" name="website" placeholder="http://johndoe.com" required pattern="(http|https)://.+" />
-                            <span class="form_hint">Proper format "http://someaddress.com"</span>
+                            <label for="Address">Адрес:</label>
+                            <input type="text" name="Address" placeholder="Город, улица, дом-квартира" maxlength="126" required/>
+                            <span class="form_hint">Допустимый формат "г. Минск, ул. Немига 17-100"</span>
                         </li>
                         <li>
-                            <label for="message">Message:</label>
-                            <textarea name="message" cols="40" rows="3" required></textarea>
+                            <label for="tasks">Задачи:</label>
+                            <textarea name="tasks" cols="40" rows="3" placeholder="Установка windows, офисного пакета, антивируса и ..." required></textarea>
                         </li>
                         <li>
                             <button class="submit" type="submit">ОТПРАВИТЬ!</button>
