@@ -1,31 +1,31 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=1024" />
-    <title>@ViewBag.Title</title>
-    <meta name="description" content="@ViewBag.Description">
-    <meta name="keywords" content="@ViewBag.KeyWords">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=1024" />
+        <title>@ViewBag.Title</title>
+        <meta name="description" content="@ViewBag.Description">
+        <meta name="keywords" content="@ViewBag.KeyWords">
 
-    <link href="~/Content/reset.css" rel="stylesheet" />
-    <link href="~/Content/global.css" rel="stylesheet" />
-    <link href="~/Content/form.css" rel="stylesheet" />
+        <link href="~/Content/reset.css" rel="stylesheet" />
+        <link href="~/Content/global.css" rel="stylesheet" />
+        <link href="~/Content/form.css" rel="stylesheet" />
+    
+        <script src="~/Scripts/jquery.js"type="text/javascript"></script>
+        <script src="~/Scripts/jquery.migrate.js"  type="text/javascript"></script>
+        <script src="~/Scripts/jquery.countdown.js" type="text/javascript"></script>
+        <script src="~/Scripts/jquery.countdown.ru.js" type="text/javascript"></script>
+        <script src="~/Scripts/jquery.maskedinput.js" type="text/javascript"></script>
+        <script src="~/Scripts/global.js" type="text/javascript"></script>
 
-    <script src="~/Scripts/jquery.js" type="text/javascript"></script>
-    <script src="~/Scripts/jquery.migrate.js" type="text/javascript"></script>
-    <script src="~/Scripts/jquery.countdown.js" type="text/javascript"></script>
-    <script src="~/Scripts/jquery.countdown.ru.js" type="text/javascript"></script>
-    <script src="~/Scripts/jquery.maskedinput.js" type="text/javascript"></script>
-    <script src="~/Scripts/global.js" type="text/javascript"></script>
+        <meta name="google-site-verification" content="D3fvO3pRlDGaIAcaqArXLyu5bTmKxNhmMPq8B1vQAmo" />
+        <meta name='yandex-verification' content='4261604e141feea4' />
+        <meta name='wmail-verification' content='a932fc49b48ccf8c527dabc9b565c72b' />
 
-    <meta name="google-site-verification" content="D3fvO3pRlDGaIAcaqArXLyu5bTmKxNhmMPq8B1vQAmo" />
-    <meta name='yandex-verification' content='4261604e141feea4' />
-    <meta name='wmail-verification' content='a932fc49b48ccf8c527dabc9b565c72b' />
+        <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+        <script src="~/Scripts/YandexMap.js" type="text/javascript"></script>    
 
-    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
-    <script src="~/Scripts/YandexMap.js" type="text/javascript"></script>
-
-
+    
     @*@Styles.Render("~/Content/css")
         @Scripts.Render("~/bundles/modernizr")*@
 </head>
@@ -65,65 +65,178 @@
         </div>
     </div>
 
-    <!-- /header -->
-    <div id="intro" class="intro">
+
+    <div class="present" id="present">
         <div class="central">
-
-
-            @RenderBody()
-
-            <div class="right">
-                <div class="contact">
-                    <div class="schedule">
-                        круглосуточно <br />
-                        без выходных
-                    </div>
-                    <div class="phone">(29) 311-59-15</div>
+            <div class="centerUP">
+                <div class="UPLeft">
+                    <h1>Компьютерная помощь</h1>
+                    <h2>Минск</h2>
                 </div>
-                <div class="advantages">
-                    <ul>
-                        <li>
-                            <div class="image"><img src="~/Content/images/advantages-icon-1-2-small.png" width="41" height="42" alt="" /></div>
-                            <div class="description">
-                                оперативность <br />
-                                работы
-                            </div>
-                        </li>
+                <div class="UPRight">
+                    <div class="contactPr">
+                        <div class="schedulePr">
+                            круглосуточно <br />
+                            без выходных
+                        </div>
+                        <div class="phonePr">(29) 311-59-15</div>
+                    </div>
+                </div>
+            </div>
+            <div class="centerMiddle">
+                <div class="left">
 
-                        <li>
-                            <div class="image"><img src="~/Content/images/advantages-icon-2-2-small.png" width="41" height="42" alt="" /></div>
-                            <div class="description">
-                                гарантийные <br />
-                                обязательства
-                            </div>
-                        </li>
-                        <li>
-                            <div class="image"><img src="~/Content/images/advantages-icon-3-2-small.png" width="41" height="42" alt="" /></div>
-                            <div class="description">
-                                более 5 лет <br />
-                                опыта
-                            </div>
-                        </li>
-                        <li>
-                            <div class="image"><img src="~/Content/images/advantages-icon-4-2-small.png" width="41" height="42" alt="" /></div>
-                            <div class="description">
-                                грамотные <br />
-                                специалисты
-                            </div>
-                        </li>
-                        <li>
-                            <div class="image"><img src="~/Content/images/advantages-icon-2-small.png" width="41" height="42" alt="" /></div>
-                            <div class="description">
-                                прозрачное <br />
-                                ценообразование
-                            </div>
-                        </li>
+                    <p>
+                        Специалисты нашей компании с радостью окажут добросовестную помощь по ремонту и обслуживанию компьютерной техники на самых выгодных условиях.
+                        Сотрудничая с нами, вы всегда можете рассчитывать на высокую квалификацию, пунктуальность, оперативность и гарантийные обязательства.
+                    </p>
+                    <p>
+                        Разнообразные акционные предложения и программа лояльности для постоянных клиентов сберегут Ваш бюджет и позволят воспользоваться лучшим
+                        соотношением цена – качество!
+                    </p>
+                    <div class="price">
+                        <div class="from">от</div>
+                        <div class="value">170<span>000</span><span id="rub">р.</span></div>
+                    </div>
+                    <div class="button">
+                        <a href="#order">Вызвать мастера</a>
+                    </div>
+                </div>
 
-                    </ul>
+                @RenderBody()
+
+                <div class="MiddleRight">
+                    <div class="advantages">
+                        <ul>
+                            <li>
+                                <div class="image"><img src="~/Content/images/advantages-icon-1-2-small.png" width="41" height="42" alt="" /></div>
+                                <div class="description">
+                                    оперативность <br />
+                                    работы
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="image"><img src="~/Content/images/advantages-icon-2-2-small.png" width="41" height="42" alt="" /></div>
+                                <div class="description">
+                                    гарантийные <br />
+                                    обязательства
+                                </div>
+                            </li>
+                            <li>
+                                <div class="image"><img src="~/Content/images/advantages-icon-3-2-small.png" width="41" height="42" alt="" /></div>
+                                <div class="description">
+                                    более 5 лет <br />
+                                    опыта
+                                </div>
+                            </li>
+                            <li>
+                                <div class="image"><img src="~/Content/images/advantages-icon-4-2-small.png" width="41" height="42" alt="" /></div>
+                                <div class="description">
+                                    грамотные <br />
+                                    специалисты
+                                </div>
+                            </li>
+                            <li>
+                                <div class="image"><img src="~/Content/images/advantages-icon-2-small.png" width="41" height="42" alt="" /></div>
+                                <div class="description">
+                                    прозрачное <br />
+                                    ценообразование
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    
+    <!-- /header -->
+    @*<div id="intro" class="intro">
+            <div class="central">
+
+                <div class="centerMain">
+                    <div class="heroMain">
+                     <img src="~/Content/images/pics/home.png" alt="" />
+                </div>
+                </div>
+                <div class="left">
+                    <h1>Компьютерная помощь</h1>
+                    <h2>
+                        Минск
+                    </h2>
+                    <p>
+                        Специалисты нашей компании с радостью окажут добросовестную помощь по ремонту и обслуживанию компьютерной техники на самых выгодных условиях.
+                        Сотрудничая с нами, вы всегда можете рассчитывать на высокую квалификацию, пунктуальность, оперативность и гарантийные обязательства.
+                    </p>
+                    <p>
+                        Разнообразные акционные предложения и программа лояльности для постоянных клиентов сберегут Ваш бюджет и позволят воспользоваться лучшим
+                        соотношением цена – качество!
+                    </p>
+                    <div class="price">
+                        <div class="from">от</div>
+                        <div class="value">170<span>000</span><span id="rub">р.</span></div>
+                    </div>
+                    <div class="button">
+                        <a href="#order">Вызвать мастера</a>
+                    </div>
+                </div>
+
+                @RenderBody()
+
+                <div class="right">
+                    <div class="contact">
+                        <div class="schedule">
+                            круглосуточно <br />
+                            без выходных
+                        </div>
+                        <div class="phone">(29) 311-59-15</div>
+                    </div>
+                    <div class="advantages">
+                        <ul>
+                            <li>
+                                <div class="image"><img src="~/Content/images/advantages-icon-1-2-small.png" width="41" height="42" alt="" /></div>
+                                <div class="description">
+                                    оперативность <br />
+                                    работы
+                                </div>
+                            </li>
+
+                            <li>
+                                <div class="image"><img src="~/Content/images/advantages-icon-2-2-small.png" width="41" height="42" alt="" /></div>
+                                <div class="description">
+                                    гарантийные <br />
+                                    обязательства
+                                </div>
+                            </li>
+                            <li>
+                                <div class="image"><img src="~/Content/images/advantages-icon-3-2-small.png" width="41" height="42" alt="" /></div>
+                                <div class="description">
+                                    более 5 лет <br />
+                                    опыта
+                                </div>
+                            </li>
+                            <li>
+                                <div class="image"><img src="~/Content/images/advantages-icon-4-2-small.png" width="41" height="42" alt="" /></div>
+                                <div class="description">
+                                    грамотные <br />
+                                    специалисты
+                                </div>
+                            </li>
+                            <li>
+                                <div class="image"><img src="~/Content/images/advantages-icon-2-small.png" width="41" height="42" alt="" /></div>
+                                <div class="description">
+                                    прозрачное <br />
+                                    ценообразование
+                                </div>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>*@
 
 
 

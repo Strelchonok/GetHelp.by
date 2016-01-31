@@ -255,7 +255,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Shared\_LayoutBig.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
@@ -282,6 +282,7 @@
     <Content Include="Views\Home\Programs.cshtml" />
     <Content Include="Views\Home\Modern.cshtml" />
     <None Include="Properties\PublishProfiles\Host.pubxml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

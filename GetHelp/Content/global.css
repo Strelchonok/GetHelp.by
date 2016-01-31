@@ -163,6 +163,184 @@ a {
 	text-shadow: -1px -1px rgba(0, 0, 0, 0.2);
 }
 
+.present {
+	overflow: hidden;
+	height: auto;
+	margin-top: 60px;
+}
+
+.present .centerUP {
+        margin: 0;
+        width: 1000px;
+}
+
+.present .centerUP .UPLeft {
+    float: left;
+	margin-top: 80px;
+	width: 500px;
+	position: relative;
+}
+
+.present .centerUP .UPLeft h1 {
+font-size: 30px;
+	font-family: DinProBold, sans-serif;
+	text-transform: uppercase;
+}
+
+.present .centerUP .UPLeft h2 {
+    font-size: 20px;
+	font-family: DinProBold, sans-serif;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+
+    .present .centerUP .UPRight {
+        float: right;
+        margin-top: 80px;
+        width: 402px;
+        position: relative;
+    }
+
+    .present .centerUP .UPRight .contactPr {
+	overflow: hidden;
+}
+
+    .present .centerMiddle {
+        margin: 0;
+        width: 1000px;
+}
+
+.present .left {
+	float: left;
+	margin-top: 20px;
+	width:780px;
+	position: relative;
+}
+.present .left h1 {
+	font-size: 30px;
+	font-family: DinProBold, sans-serif;
+	text-transform: uppercase;
+}
+.present .left h2 {
+	font-size: 20px;
+	font-family: DinProBold, sans-serif;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+.present .left p {
+	margin-top: 25px;
+	font-size: 15px;
+	text-align: justify;
+    line-height: 20px;
+	font-family: DinProRegular, sans-serif;
+}
+.present .left .price {
+	overflow: hidden;
+	color: #2469a6;
+	margin-top: 40px;
+}
+.present .left .price .from {
+	float: left;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	margin-top: 13px;
+}
+.present .left .price .value {
+	float: left;
+	font-family: DinProBold, sans-serif;
+	font-size: 72px;
+	margin-left: 10px;
+}
+
+.present .left .price .value span {
+	font-size: 50px;
+	position:relative;
+	margin-left: 5px;
+	margin-top: 10px;
+  }
+
+.present .left .price .value span:after {
+	
+	position: absolute;
+	margin-left: -40px;
+	margin-top: 10px;
+}
+.present .left .button {
+	margin: 20px 0 20px 0;
+}
+.present .left .button a, .button2 {
+	display: block;
+	background: #B40000;
+	background: -moz-linear-gradient(top, #FF9191 0%, #B40000 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FF9191), color-stop(100%, #B40000));
+	background: -webkit-linear-gradient(top, #FF9191 0%, #B40000 100%);
+	background: -o-linear-gradient(top, #FF9191 0%, #B40000 100%);
+	background: -ms-linear-gradient(top, #FF9191 0%, #B40000 100%);
+	background: linear-gradient(to bottom, #FF9191 0%, #B40000 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#FF9191', endColorstr = '#B40000',GradientType = 0);
+	color: #fff;
+	width: 250px;
+	text-align: center;
+	font-size: 28px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	padding: 10px 0;
+	text-shadow: 1px 1px rgba(0, 0, 0, 0.4);
+	border-radius: 3px;
+}
+
+.present .left .dynamic {
+	margin-top: 20px;
+	font-size: 13px;
+	line-height: 20px;
+	font-family: DinProRegular, sans-serif;
+	text-align: center;
+	
+}
+
+.present .centerUP .UPRight .contactPr .schedulePr {
+	float: left;
+	font-family: DinProRegular, sans-serif;
+	font-size: 14px;
+	line-height: 17px;
+	text-transform: uppercase;
+	margin-top: 6px;
+}
+.present .centerUP .UPRight .contactPr .phonePr {
+	float: right;
+	font-family: DinProBold, sans-serif;
+	font-size: 40px;
+	margin-left: 20px;
+}
+
+.present .MiddleRight {
+	float: right;
+	margin-top: 20px;
+	width: 170px;
+	position: relative;
+}
+
+.present .MiddleRight .advantages {
+	float: right;
+	font-size: 12px;
+	line-height: 15px;
+	text-transform: uppercase;
+	font-family: DinProBold, sans-serif;
+	margin-top: 0px;
+}
+.present .MiddleRight .advantages li {
+	overflow: hidden;
+	margin-top: 20px;
+}
+.present .MiddleRight .advantages .image {
+	float: left;
+}
+.present .MiddleRight .advantages .description {
+	float: left;
+	margin: 8px 0 0 10px;
+}
+/*_________________________________*/
 
 .intro {
 	overflow: hidden;
@@ -214,19 +392,6 @@ a {
 .intro .left .price .value span {
 	font-size: 50px;
 	position:relative;
-	margin-left: 5px;
-	margin-top: 10px;
-  }
-
-html, body, #map {
-                width: 100%;
-                height: 100%;
-                padding: 0;
-                
-            }
-
-#rub {
-	font-size: 25px;
 	margin-left: 5px;
 	margin-top: 10px;
   }
@@ -313,6 +478,12 @@ html, body, #map {
 }
 
     .intro .centerMain {
+        position: relative;
+        position: absolute;
+        margin: 110px 0 0 420px;
+    }
+
+    .intro .centerBig {
         position: relative;
         position: absolute;
         margin: 110px 0 0 420px;
@@ -812,3 +983,17 @@ padding-top: 8px;
 	text-transform: uppercase;
 	color: #e3e2e0;
 }
+
+
+html, body, #map {
+                width: 100%;
+                height: 100%;
+                padding: 0;
+                
+            }
+
+#rub {
+	font-size: 25px;
+	margin-left: 5px;
+	margin-top: 10px;
+  }
