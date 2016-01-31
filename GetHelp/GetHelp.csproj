@@ -273,7 +273,6 @@
     <Content Include="fonts\DinProRegular.ttf" />
     <Content Include="fonts\DinProRegular.woff" />
     <None Include="Project_Readme.html" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Viruses.cshtml" />
     <Content Include="Views\Home\InstWin.cshtml" />
     <Content Include="Views\Home\WiFi.cshtml" />
@@ -283,6 +282,7 @@
     <Content Include="Views\Home\Modern.cshtml" />
     <None Include="Properties\PublishProfiles\Host.pubxml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
