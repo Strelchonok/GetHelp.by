@@ -166,8 +166,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\cs.min.js" />
     <Content Include="Content\global.css" />
     <Content Include="Content\images\advantages-devide.png" />
     <Content Include="Content\images\advantages-icon-1-2-small.png" />
@@ -183,12 +181,14 @@
     <Content Include="Content\images\advantages-icon-4-small.png" />
     <Content Include="Content\images\advantages-icon-4.png" />
     <Content Include="Content\images\counter-bg.png" />
+    <Content Include="Content\images\invalid.png" />
     <Content Include="Content\images\navigation-devide.png" />
     <Content Include="Content\images\order-bg.png" />
     <Content Include="Content\images\pics\GetHelp.gif" />
     <Content Include="Content\images\pics\GetHelp2.gif" />
     <Content Include="Content\images\pics\home.png" />
     <Content Include="Content\images\pics\superman_flying.png" />
+    <Content Include="Content\images\red_asterisk.png" />
     <Content Include="Content\images\scheme-bottom-bg.png" />
     <Content Include="Content\images\scheme-devide.png" />
     <Content Include="Content\images\scheme-icon-1.png" />
@@ -203,6 +203,7 @@
     <Content Include="Content\images\service-icon-5.png" />
     <Content Include="Content\images\service-icon-6.png" />
     <Content Include="Content\images\services-bg.png" />
+    <Content Include="Content\images\valid.png" />
     <Content Include="Content\images\Visuals\boy-joy-computer photosdotcom.jpg" />
     <Content Include="Content\images\Visuals\happy-woman-using-computer.jpg" />
     <Content Include="Content\images\Visuals\modern.png" />
@@ -214,6 +215,7 @@
     <Content Include="Content\images\Visuals\wi-fi.png" />
     <Content Include="Content\images\Visuals\windows.png" />
     <Content Include="Content\reset.css" />
+    <Content Include="Content\form.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Areas\HelpPage\Views\Web.config" />

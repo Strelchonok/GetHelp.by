@@ -641,7 +641,7 @@ html, body, #map {
 	text-transform: uppercase;
 	color: #e3e2e0;
 }
-.order .form {
+.order .formOld {
 	border: 1px solid #606060;
 	border-radius: 5px;
 	width: 480px;
@@ -650,7 +650,7 @@ html, body, #map {
 	margin-left: 260px;
 	overflow: hidden;
 }
-.order .form input {
+.order .formOld inputOld {
 	font-family: DinProRegular, sans-serif;
 	font-size: 30px;
 	color: #ababab;
@@ -661,7 +661,7 @@ html, body, #map {
 	float: left;
 	width: 260px;
 }
-.order .form button {
+.order .formOld button {
 	font-family: DinCondensed, sans-serif;
 	text-transform: uppercase;
 	font-size: 20px;
@@ -744,4 +744,71 @@ padding-top: 8px;
     padding-top: 20px;
     font-size: 17px;
     color: black;
+}
+
+/*----------------------------------------------------------------*/
+/*FORM*/
+
+.order .requestLeft {
+
+    float: left;
+	width: 570px;
+	position: relative;
+}
+
+.order .requestLeft h2 {
+	font-size: 30px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	margin-top: 80px;
+	color: #fafafa;
+}
+.order .requestLeft p {
+	text-align: left;
+	font-size: 15px;
+	line-height: 20px;
+	font-family: DinProRegular, sans-serif;
+	width: 570px;
+	margin: 25px auto 0 auto;
+	text-transform: uppercase;
+	color: #e3e2e0;
+}
+
+/*_______________________________________*/
+
+.order .requestRight {
+
+    float: right;
+	width: 400px;
+	position: relative;
+}
+
+    .order .requestRight h2 {
+        font-size: 30px;
+        font-family: DinCondensed, sans-serif;
+        text-transform: uppercase;
+        text-align: left;
+        margin-top: 80px;
+        color: #fafafa;
+    }
+
+    .order .requestRight h1 {
+	font-size: 60px;
+	font-family: DinCondensed, sans-serif;
+	text-transform: uppercase;
+	text-align: left;
+	margin-top: 48px;
+	color: #FFED29;
+}
+
+.order .requestRight p {
+	text-align: left;
+	font-size: 15px;
+	line-height: 20px;
+	font-family: DinProRegular, sans-serif;
+	width: 570px;
+	margin: 25px auto 0 auto;
+	text-transform: uppercase;
+	color: #e3e2e0;
 }
