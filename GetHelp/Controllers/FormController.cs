@@ -17,18 +17,12 @@ namespace GetHelp.Controllers
             unitOfWork = new UnitOfWork();
         }
 
-        // POST: api/Form
-        public IHttpActionResult PostFruct(QUERIES queries)
+        [HttpPost]
+        public void Create([FromBody]QUERIES queries)
         {
-            if (!ModelState.IsValid)
-            {
-                return BadRequest(ModelState);
-            }
-
             unitOfWork.Queries.Create(queries);
             unitOfWork.Save();
 
-            return Ok(queries);
         }
     }
     

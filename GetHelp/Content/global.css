@@ -951,6 +951,19 @@ padding-top: 8px;
 	color: #e3e2e0;
 }
 
+#answer {
+	
+	text-align: left;
+	font-size: 15px;
+	line-height: 20px;
+	font-family: DinProRegular, sans-serif;
+	width: 300px;
+	margin: 10px 0 0 120px;
+	text-transform: uppercase;
+	color: #FFED29;
+ 
+}
+
 /*_______________________________________*/
 
 .order .requestRight {

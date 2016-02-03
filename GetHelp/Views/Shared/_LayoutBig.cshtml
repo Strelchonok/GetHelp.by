@@ -34,10 +34,11 @@
 
         Module.controller("BackFormCtrl", function ($scope, $http, baseUrl) {
         
+            $scope.state = false;
             // Создает новую запись на сервере
             $scope.Save = function (item) {
-                $http.post(baseUrl, item).success(function (item) {
-                  
+                $http.post(baseUrl, item).success(function (item) {  
+                    $scope.state = true;
                 })
             }
         });
@@ -362,7 +363,7 @@
 
                 </p>
 
-                <form class="contact_form" action="#" method="post" name="contact_form">
+                <form class="contact_form" name="contact_form">
                     <ul>
                         <li>
                             <h2></h2>
@@ -370,28 +371,29 @@
                         </li>
                         <li>
                             <label for="name">Имя:</label>
-                            <input type="text" placeholder="Имя Фамилия" ng-model="NewItem.QName" required maxlength="126" />
+                            <input type="text" placeholder="Имя Фамилия" ng-readonly="state" ng-model="NewItem.QName" required maxlength="126" />
                         </li>
                         <li>
                             <label for="telephone">Телефон:</label>
-                            <input type="tel" name="telephone" ng-model="NewItem.QTel" placeholder="(XXX) XX XXX-XX-XX" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,15}$" required />
+                            <input type="tel" name="telephone" ng-readonly="state" ng-model="NewItem.QTel" placeholder="(XXX) XX XXX-XX-XX" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,15}$" required />
                             <span class="form_hint">Допустимый формат "375 29 110 20 30"</span>
                         </li>
                         <li>
                             <label for="Address">Адрес:</label>
-                            <input type="text" name="Address" ng-model="NewItem.QAddr" placeholder="Город, улица, дом-квартира" maxlength="126" required/>
+                            <input type="text" name="Address" ng-readonly="state" ng-model="NewItem.QAddr" placeholder="Город, улица, дом-квартира" maxlength="126" required/>
                             <span class="form_hint">Допустимый формат "г. Минск, ул. Немига 17-100"</span>
                         </li>
                         <li>
                             <label for="tasks">Задачи:</label>
-                            <textarea name="tasks" cols="40" rows="3" ng-model="NewItem.QTask" placeholder="Установка windows, офисного пакета, антивируса и ..." required></textarea>
+                            <textarea name="tasks" cols="40" rows="3" ng-readonly="state" ng-model="NewItem.QTask" placeholder="Установка windows, офисного пакета, антивируса и ..." required></textarea>
                         </li>
                         <li>
-                            <button class="submit" ng-click="Save(NewItem)" type="submit">ОТПРАВИТЬ!</button>
+                            <button class="submit" ng-click="Save(NewItem)" ng-disabled="contact_form.$invalid" ng-hide="state" type="submit">ОТПРАВИТЬ!</button>
                         </li>
                     </ul>
                 </form>
 
+            <p id="answer" ng-show="state">заявка отправленна! наши специалист свяжутся с вами в ближайшее время.</p>
             </div>
 
             <div class="requestRight">
